@@ -213,8 +213,8 @@ const baseLayout = () => ({
   plot_bgcolor: paperColor,
   font: { color: fontColor, size: 12 },
   margin: { t: 40, r: 20, b: 40, l: 55 },
-  xaxis: { gridcolor: gridColor, zerolinecolor: gridColor },
-  yaxis: { gridcolor: gridColor, zerolinecolor: gridColor },
+  xaxis: { gridcolor: gridColor, zerolinecolor: gridColor, automargin: true },
+  yaxis: { gridcolor: gridColor, zerolinecolor: gridColor, automargin: true },
   legend: { orientation: 'h', y: -0.2 },
 });
 const cfg = { responsive: true, displaylogo: false };
